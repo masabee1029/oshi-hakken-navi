@@ -140,5 +140,84 @@
   "header_image": "assets/header.jpg"
  },
  "profile_html": "運営者自身、歌い手やアーティストを応援している音楽好きです。ファンの目線で、あなたが次の推しに出会うきっかけになる聴きどころを書いています。",
- "next_step_html": "<p>気になった1曲を、今日1回だけ聴いてみませんか。各アーティストの公式チャンネルや配信サービスで聴けます。</p><p>あなたの好きなアーティストは誰ですか？</p><p>最後まで読んでくださり、ありがとうございました。</p>"
+ "next_step_html": "<p>気になった1曲を、今日1回だけ聴いてみませんか。各アーティストの公式チャンネルや配信サービスで聴けます。</p><p>あなたの好きなアーティストは誰ですか？</p><p>最後まで読んでくださり、ありがとうございました。</p>",
+ "refs": {
+  "_label": "2026年10月の売れ筋",
+  "ワイヤレスイヤホン": [
+   {
+    "name": "Anker Soundcore P31i"
+   },
+   {
+    "name": "Xiaomi REDMI Buds 8 Lite"
+   },
+   {
+    "name": "ソニー WF-1000XM5",
+    "q": "SONY WF-1000XM5"
+   }
+  ],
+  "ヘッドホン 音楽鑑賞": [
+   {
+    "name": "Anker Soundcore Q20i"
+   },
+   {
+    "name": "Anker Soundcore Q30i"
+   },
+   {
+    "name": "ゼンハイザー MOMENTUM 4 Wireless",
+    "q": "Sennheiser MOMENTUM 4 Wireless"
+   }
+  ],
+  "Bluetooth スピーカー": [
+   {
+    "name": "Anker SoundCore 2"
+   },
+   {
+    "name": "JBL GO4",
+    "q": "JBL GO4 Bluetoothスピーカー"
+   },
+   {
+    "name": "JBL FLIP 7"
+   }
+  ],
+  "ボカロ 本": [
+   {
+    "name": "東京大学「ボーカロイド音楽論」講義",
+    "q": "ボーカロイド音楽論 講義"
+   },
+   {
+    "name": "ボカロが世界に与えた衝撃（ele-king books）",
+    "q": "ボカロが世界に与えた衝撃"
+   },
+   {
+    "name": "ボカロPで生きていく 40mPのボーカロイド活動日誌",
+    "q": "ボカロPで生きていく 40mP"
+   }
+  ],
+  "イヤープラグ ライブ": [
+   {
+    "name": "Loop Experience 2",
+    "q": "Loop Experience 2 耳栓"
+   },
+   {
+    "name": "オーディオテクニカ AT-ERP5",
+    "q": "オーディオテクニカ AT-ERP5 耳栓"
+   },
+   {
+    "name": "CRESCENDO Music 20",
+    "q": "CRESCENDO ライブ用耳栓 Music 20"
+   }
+  ],
+  "レコードプレーヤー": [
+   {
+    "name": "オーディオテクニカ AT-LP60XBT"
+   },
+   {
+    "name": "オーディオテクニカ AT-LP70XBT"
+   },
+   {
+    "name": "デノン DP-29F",
+    "q": "Denon DP-29F"
+   }
+  ]
+ }
 }
