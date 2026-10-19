@@ -142,7 +142,7 @@
  "profile_html": "運営者自身、歌い手やアーティストを応援している音楽好きです。ファンの目線で、あなたが次の推しに出会うきっかけになる聴きどころを書いています。",
  "next_step_html": "<p>気になった1曲を、今日1回だけ聴いてみませんか。各アーティストの公式チャンネルや配信サービスで聴けます。</p><p>あなたの好きなアーティストは誰ですか？</p><p>最後まで読んでくださり、ありがとうございました。</p>",
  "refs": {
-  "_label": "2026年10月・Amazonで人気",
+  "_label": "2026年10月の人気",
   "ワイヤレスイヤホン": [
    {
     "name": "Anker Soundcore P31i"
@@ -153,6 +153,14 @@
    {
     "name": "ソニー WF-1000XM5",
     "q": "SONY WF-1000XM5"
+   },
+   {
+    "name": "Anker Soundcore P40i",
+    "src": "楽天"
+   },
+   {
+    "name": "Anker Soundcore Liberty 5",
+    "src": "楽天"
    }
   ],
   "ヘッドホン 音楽鑑賞": [
@@ -165,6 +173,10 @@
    {
     "name": "ゼンハイザー MOMENTUM 4 Wireless",
     "q": "Sennheiser MOMENTUM 4 Wireless"
+   },
+   {
+    "name": "OneOdio Monitor80",
+    "src": "楽天"
    }
   ],
   "Bluetooth スピーカー": [
@@ -177,6 +189,14 @@
    },
    {
     "name": "JBL FLIP 7"
+   },
+   {
+    "name": "Anker Soundcore 3",
+    "src": "楽天"
+   },
+   {
+    "name": "Marshall EMBERTON III",
+    "src": "楽天"
    }
   ],
   "ボカロ 本": [
@@ -205,6 +225,14 @@
    {
     "name": "CRESCENDO Music 20",
     "q": "CRESCENDO ライブ用耳栓 Music 20"
+   },
+   {
+    "name": "Loop Experience 2",
+    "src": "楽天"
+   },
+   {
+    "name": "ラディウス EP-D20",
+    "src": "楽天"
    }
   ],
   "レコードプレーヤー": [
