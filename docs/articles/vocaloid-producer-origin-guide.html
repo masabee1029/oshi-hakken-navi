@@ -182,6 +182,36 @@ article{counter-reset:th}article h2{counter-increment:th}article h2::after{conte
 article h2.ax-sum::after{content:"OUTRO"}
 article ul li::marker{content:"♪ ";color:#ffb15c}
 article blockquote,article .note{border-left-color:#ff7eb6}
+
+/* category-base: 2026-10-27 カテゴリページの共通部分 */
+.cx-page .cards{counter-reset:none}
+.cx-page .card{position:relative;animation:cxin .5s both;animation-delay:calc(var(--i,0)*60ms)}
+@keyframes cxin{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.cx-page .card{animation:none}}
+.cx-head{position:relative;margin:4px 0 6px}.cx-head h1{margin:0}
+.cx-intro{margin:8px 0 0}
+.cx-meter{display:flex;align-items:center;gap:10px;margin:12px 0 0;font-size:13px}.cx-meter span{white-space:nowrap}.cx-meter b{font-size:1.25em}
+.cx-meter i{position:relative;flex:1;height:8px;border-radius:99px;overflow:hidden;max-width:240px}
+.cx-meter i::after{content:"";position:absolute;left:0;top:0;bottom:0;background:var(--cxm,#888);width:var(--w,0);transition:width .9s ease}
+.cx-sort{display:inline-flex;gap:4px;margin:12px 0 0}.cx-sort button{font:inherit;font-size:13px;padding:4px 12px;cursor:pointer}
+.cx-badge{position:absolute;top:10px;right:10px;font-size:12px;font-weight:700;padding:2px 10px;z-index:2}
+.cx-others{margin:18px 0 8px}.cx-others strong{display:block;font-size:13px;margin-bottom:8px}.cx-others div{display:flex;flex-wrap:wrap;gap:8px}
+.cx-others a{text-decoration:none;font-size:14px;padding:5px 12px}.cx-others small{margin-left:6px;opacity:.7}
+
+/* category: record-sleeve (2026-10-27) */
+.cx-sleeve{display:flex;align-items:center;gap:22px;padding:20px;border-radius:10px;background:linear-gradient(135deg,#ff7eb6 0,#ffb15c 35%,#2b1f5c 35.2%,#17143a);overflow:hidden}
+.cx-disc{flex:0 0 150px;height:150px;border-radius:50%;background:repeating-radial-gradient(circle,#111 0 2px,#1e1e1e 2px 4px);box-shadow:0 6px 20px #0008;display:flex;align-items:center;justify-content:center;animation:cxspin 9s linear infinite}
+.cx-disc i{width:52px;height:52px;border-radius:50%;background:radial-gradient(circle,#17143a 0 5px,#ff7eb6 5px 100%);box-shadow:inset 0 0 0 6px #ffb15c}
+@keyframes cxspin{to{transform:rotate(360deg)}}@media (prefers-reduced-motion:reduce){.cx-disc{animation:none}}
+.cx-main{flex:1;min-width:0;background:#17143acc;border-radius:8px;padding:12px 16px}
+.cx-eye{font-family:"RocknRoll One",sans-serif;font-size:12px;letter-spacing:.2em;color:#5cc8d6}
+.cx-sleeve h1{font-family:"RocknRoll One",sans-serif;font-weight:400;font-size:clamp(26px,4vw,34px);color:#fff;text-shadow:3px 3px 0 #8e6bff}.cx-sleeve h1 small{font-size:.5em;color:#ffb15c;text-shadow:none}
+.cx-page{--cxm:#ff7eb6}.cx-meter i{background:#100d2c}.cx-meter b{color:#ffb15c}
+.cx-sort button{background:#100d2c;color:#e6e0ff;border:1px solid #5cc8d6;border-radius:4px;font-family:"RocknRoll One",sans-serif}.cx-sort button.on{background:#5cc8d6;color:#100d2c}
+.cx-page .card::before{content:attr(data-no);position:absolute;top:10px;left:10px;z-index:2;font-family:"RocknRoll One",sans-serif;font-size:11px;letter-spacing:.2em;color:#100d2c;background:#5cc8d6;border-radius:4px;padding:1px 8px}
+.cx-badge{background:#ff7eb6;color:#100d2c;border-radius:4px;font-family:"RocknRoll One",sans-serif}
+.cx-others a{background:#211d4d;border:1px solid #8e6bff;border-radius:99px;color:#fff}.cx-others a::before{content:"♪ ";color:#ffb15c}.cx-others strong{font-family:"RocknRoll One",sans-serif;color:#ffb15c}
+@media (max-width:560px){.cx-sleeve{flex-direction:column;align-items:stretch}.cx-disc{flex-basis:auto;width:110px;height:110px;align-self:center}}
 </style><script async src="https://www.googletagmanager.com/gtag/js?id=G-EHWF25C1RB"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-EHWF25C1RB');</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "ボカロP出身のアーティスト入門｜米津玄師・Ayase・syudouほか5人の作風", "description": "ボカロP出身でJ-POPの第一線に立つ米津玄師、Ayase、syudou、キタニタツヤ、すりぃを紹介する入門記事です。ボカロPとは何か、それぞれの作風の違い、最初に聴きたい代表曲までわかりやすくまとめました。", "datePublished": "2026-10-13", "image": "https://masabee1029.github.io/oshi-hakken-navi/img/articles/vocaloid-producer-origin-guide.jpg", "author": {"@type": "Person", "name": "運営者", "url": "https://masabee1029.github.io/oshi-hakken-navi/about.html"}, "publisher": {"@type": "Organization", "name": "推し発見ナビ"}, "mainEntityOfPage": "https://masabee1029.github.io/oshi-hakken-navi/articles/vocaloid-producer-origin-guide.html"}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://masabee1029.github.io/oshi-hakken-navi/index.html"}, {"@type": "ListItem", "position": 2, "name": "入門", "item": "https://masabee1029.github.io/oshi-hakken-navi/category/c2b8268.html"}, {"@type": "ListItem", "position": 3, "name": "ボカロP出身のアーティスト入門｜米津玄師・Ayase・syudouほか5人の作風", "item": "https://masabee1029.github.io/oshi-hakken-navi/articles/vocaloid-producer-origin-guide.html"}]}</script></head><body>
 <header><div class="wrap"><div class="top"><a class="logo" href="../index.html">推し<span>発見</span>ナビ</a><span class="tagline">好きなアーティストから次の推しを見つける</span></div>
@@ -221,6 +251,8 @@ article blockquote,article .note{border-left-color:#ff7eb6}
 <div class="note">楽曲は各アーティストの公式チャンネルや配信サービスでお楽しみください。</div>
 <p>ボカロ文化から生まれた音楽の奥深さを、ぜひ味わってみてください。</p><div class="next"><div class="next-h">今日できる次の一歩</div><p>気になった1曲を、今日1回だけ聴いてみませんか。各アーティストの公式チャンネルや配信サービスで聴けます。</p><p>あなたの好きなアーティストは誰ですか？</p><p>最後まで読んでくださり、ありがとうございました。</p></div><script>(function(C){var R=window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches;
 var art=document.querySelector("article");if(!art)return;
+/* 読んだ記事を覚えておく（カテゴリページの「読んだ」印に使う。この端末の中だけ。同じ github.io の別サイトと混ざらないよう、パス全体で覚える） */
+try{var RK="ax-read",RL=JSON.parse(localStorage.getItem(RK)||"[]"),me=location.pathname;if(RL.indexOf(me)<0){RL.push(me);localStorage.setItem(RK,JSON.stringify(RL.slice(-300)))}}catch(e){}
 /* 読むのにかかる時間（1 分 500 字で計算） */
 var n=(art.innerText||"").replace(/\s/g,"").length,m=Math.max(1,Math.round(n/500)),d=art.querySelector(".date");
 if(d){var t=document.createElement("span");t.className="ax-time";t.textContent=C.time.replace("{m}",m);d.after(t)}
