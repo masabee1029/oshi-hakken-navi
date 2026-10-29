@@ -12,7 +12,7 @@
  "home_picks_title": "推しの曲をいい音で聴く",
  "picks_title_short": "音楽をもっと楽しむために",
  "picks_title_long": "推しの曲を楽しむのに役立つ道具",
- "about_html": "<p>「推し発見ナビ」は、歌い手・ボカロP・バンド・シンガーなどの経歴と音楽の特徴を紹介し、あなたの好きなアーティストから、次の推しを見つけるための音楽ガイドです。</p><p>運営者自身、歌い手やアーティストを応援している音楽好きです。だから、ファンの目線で、それぞれのアーティストの歩みと聴きどころを、あなたが新しく出会うきっかけになるように書いています。</p><p>数ある情報の中から、このサイトを見つけてくださり、ありがとうございます。</p><p>歌詞の引用やアーティスト写真の掲載はしていません。楽曲は各アーティストの公式チャンネル・配信サービスでお楽しみください。</p><h2>記事の作り方</h2><p>記事の下書きにはAIを活用し、公開情報をもとに内容を確認しています。商品・サービス・イベントの情報は変わることがあるため、お出かけやご購入の前に、最新の情報を公式サイトで確かめていただくと安心です。</p>",
+ "about_html": "<p>「推し発見ナビ」は、歌い手・ボカロP・バンド・シンガーなどの経歴と音楽の特徴を紹介し、あなたの好きなアーティストから、次の推しを見つけるための音楽ガイドです。</p><p>運営者自身、歌い手やアーティストを応援している音楽好きです。だから、ファンの目線で、それぞれのアーティストの歩みと聴きどころを、あなたが新しく出会うきっかけになるように書いています。</p><p>数ある情報の中から、このサイトを見つけてくださり、ありがとうございます。</p><p>歌詞の引用やアーティスト写真の掲載はしていません。楽曲は各アーティストの公式チャンネル・配信サービスでお楽しみください。</p><h2>記事の作り方</h2><p>記事の下書きにはAIを活用し、公開情報をもとに内容を確認しています。ヘッダーの画像は画像生成AI（Gemini など）で作成し、運営者が確認しています。記事の画像は、実在のアーティストに似せないよう、図形と文字だけで描いたものです。商品・サービス・イベントの情報は変わることがあるため、お出かけやご購入の前に、最新の情報を公式サイトで確かめていただくと安心です。</p>",
  "picks": {
   "歌い手": [
    [
@@ -261,5 +261,25 @@
   "入門": "ボカロP出身のアーティストや、2020年代にブレイクしたシンガーをまとめて知れる入門記事です。",
   "ボカロP": "DECO*27が好きな人に向けて、いま聴きたいボカロPを紹介しています。"
  },
- "category_js": "<script>(function(C){var pg=document.querySelector(\".cx-page\");if(!pg)return;\nvar box=pg.querySelector(\".cards\"),cards=[].slice.call(box.querySelectorAll(\".card\"));\nfunction num(){[].forEach.call(box.querySelectorAll(\".card\"),function(a,i){a.setAttribute(\"data-no\",(C.pre||\"\")+(\"0\"+(i+1)).slice(-2))})}\n/* 読んだ記事に印 */\nvar RL=[];try{RL=JSON.parse(localStorage.getItem(\"ax-read\")||\"[]\")}catch(e){}\nvar m=0;cards.forEach(function(a,i){a.style.setProperty(\"--i\",i);if(RL.indexOf(new URL(a.href,location.href).pathname)>=0){a.classList.add(\"cx-read\");m++;var b=document.createElement(\"span\");b.className=\"cx-badge\";b.textContent=C.read;a.appendChild(b)}});\nnum();\nvar mt=pg.querySelector(\".cx-meter\");if(mt){mt.querySelector(\"b\").textContent=m;var i=mt.querySelector(\"i\");if(i)setTimeout(function(){i.style.setProperty(\"--w\",(cards.length?m/cards.length*100:0)+\"%\")},200)}\n/* 新しい順・古い順 */\nvar s=pg.querySelector(\".cx-sort\");if(s)s.addEventListener(\"click\",function(e){var b=e.target.closest(\"button\");if(!b||b.classList.contains(\"on\"))return;\n [].forEach.call(s.querySelectorAll(\"button\"),function(x){x.classList.toggle(\"on\",x==b)});var arr=cards.slice();if(b.getAttribute(\"data-o\")==\"old\")arr.reverse();arr.forEach(function(a){box.appendChild(a)});num()});\n/* ほかのカテゴリは一覧のあとへ */\nvar o=pg.querySelector(\".cx-others\");if(o){if(!o.querySelector(\"a\"))o.remove();else box.after(o)}\n/* 文字の大きさ（記事ページと同じ設定を使う） */\nif(C.size){var k=\"ax-size\",cur=\"\";try{cur=localStorage.getItem(k)||\"\"}catch(e){}\n var w=document.createElement(\"div\");w.className=\"ax-size\";w.innerHTML='<span>文字の大きさ</span><button data-s=\"\">ふつう</button><button data-s=\"l\">大</button><button data-s=\"xl\">特大</button>';\n function set(v){document.documentElement.setAttribute(\"data-size\",v);[].forEach.call(w.querySelectorAll(\"button\"),function(b){b.classList.toggle(\"on\",b.getAttribute(\"data-s\")==v)});try{localStorage.setItem(k,v)}catch(e){}}\n w.addEventListener(\"click\",function(e){var b=e.target.closest(\"button\");if(b)set(b.getAttribute(\"data-s\"))});var h=pg.querySelector(\".cx-head\");h&&h.appendChild(w);set(cur)}\n})({\"read\": \"読んだ♪\", \"pre\": \"TRACK \"});</script>"
+ "category_js": "<script>(function(C){var pg=document.querySelector(\".cx-page\");if(!pg)return;\nvar box=pg.querySelector(\".cards\"),cards=[].slice.call(box.querySelectorAll(\".card\"));\nfunction num(){[].forEach.call(box.querySelectorAll(\".card\"),function(a,i){a.setAttribute(\"data-no\",(C.pre||\"\")+(\"0\"+(i+1)).slice(-2))})}\n/* 読んだ記事に印 */\nvar RL=[];try{RL=JSON.parse(localStorage.getItem(\"ax-read\")||\"[]\")}catch(e){}\nvar m=0;cards.forEach(function(a,i){a.style.setProperty(\"--i\",i);if(RL.indexOf(new URL(a.href,location.href).pathname)>=0){a.classList.add(\"cx-read\");m++;var b=document.createElement(\"span\");b.className=\"cx-badge\";b.textContent=C.read;a.appendChild(b)}});\nnum();\nvar mt=pg.querySelector(\".cx-meter\");if(mt){mt.querySelector(\"b\").textContent=m;var i=mt.querySelector(\"i\");if(i)setTimeout(function(){i.style.setProperty(\"--w\",(cards.length?m/cards.length*100:0)+\"%\")},200)}\n/* 新しい順・古い順 */\nvar s=pg.querySelector(\".cx-sort\");if(s)s.addEventListener(\"click\",function(e){var b=e.target.closest(\"button\");if(!b||b.classList.contains(\"on\"))return;\n [].forEach.call(s.querySelectorAll(\"button\"),function(x){x.classList.toggle(\"on\",x==b)});var arr=cards.slice();if(b.getAttribute(\"data-o\")==\"old\")arr.reverse();arr.forEach(function(a){box.appendChild(a)});num()});\n/* ほかのカテゴリは一覧のあとへ */\nvar o=pg.querySelector(\".cx-others\");if(o){if(!o.querySelector(\"a\"))o.remove();else box.after(o)}\n/* 文字の大きさ（記事ページと同じ設定を使う） */\nif(C.size){var k=\"ax-size\",cur=\"\";try{cur=localStorage.getItem(k)||\"\"}catch(e){}\n var w=document.createElement(\"div\");w.className=\"ax-size\";w.innerHTML='<span>文字の大きさ</span><button data-s=\"\">ふつう</button><button data-s=\"l\">大</button><button data-s=\"xl\">特大</button>';\n function set(v){document.documentElement.setAttribute(\"data-size\",v);[].forEach.call(w.querySelectorAll(\"button\"),function(b){b.classList.toggle(\"on\",b.getAttribute(\"data-s\")==v)});try{localStorage.setItem(k,v)}catch(e){}}\n w.addEventListener(\"click\",function(e){var b=e.target.closest(\"button\");if(b)set(b.getAttribute(\"data-s\"))});var h=pg.querySelector(\".cx-head\");h&&h.appendChild(w);set(cur)}\n})({\"read\": \"読んだ♪\", \"pre\": \"TRACK \"});</script>",
+ "no_ai_images": [
+  "2020s-breakout-singers",
+  "if-you-like-ado",
+  "if-you-like-aimer",
+  "if-you-like-deco27",
+  "if-you-like-eve",
+  "if-you-like-hoshimachi-suisei",
+  "if-you-like-kenshi-yonezu",
+  "if-you-like-kessoku-band",
+  "if-you-like-king-gnu",
+  "if-you-like-lisa",
+  "if-you-like-mrs-green-apple",
+  "if-you-like-official-hige-dandism",
+  "if-you-like-vaundy",
+  "if-you-like-yama",
+  "if-you-like-yoasobi",
+  "if-you-like-zutomayo",
+  "utaite-culture-guide",
+  "vocaloid-producer-origin-guide"
+ ]
 }
