@@ -143,17 +143,19 @@
  "profile_html": "運営者自身、歌い手やアーティストを応援している音楽好きです。ファンの目線で、あなたが次の推しに出会うきっかけになる聴きどころを書いています。",
  "next_step_html": "<p>最後まで読んでくださり、ありがとうございました。</p><p>気になった1曲を、今日1回だけ聴いてみませんか。各アーティストの公式チャンネルや配信サービスで聴けます。</p><p>あなたの好きなアーティストは誰ですか？</p>",
  "refs": {
-  "_label": "2026年10月の人気",
+  "_label": "2026年11月の人気",
   "ワイヤレスイヤホン": [
    {
-    "name": "Anker Soundcore P31i"
+    "name": "Xiaomi Redmi Buds 6 Play",
+    "q": "Xiaomi Redmi Buds 6 Play"
    },
    {
-    "name": "Xiaomi REDMI Buds 8 Lite"
+    "name": "Xiaomi REDMI Buds 8 Lite",
+    "q": "Xiaomi REDMI Buds 8 Lite"
    },
    {
-    "name": "ソニー WF-1000XM5",
-    "q": "SONY WF-1000XM5"
+    "name": "Anker Soundcore P31i",
+    "q": "Anker Soundcore P31i"
    },
    {
     "name": "Anker Soundcore P40i",
@@ -166,17 +168,23 @@
   ],
   "ヘッドホン 音楽鑑賞": [
    {
-    "name": "Anker Soundcore Q20i"
+    "name": "オーディオテクニカ ATH-M50x",
+    "q": "オーディオテクニカ ATH-M50x"
    },
    {
-    "name": "Anker Soundcore Q30i"
+    "name": "ソニー MDR-7506",
+    "q": "SONY MDR-7506"
    },
    {
-    "name": "ゼンハイザー MOMENTUM 4 Wireless",
-    "q": "Sennheiser MOMENTUM 4 Wireless"
+    "name": "Anker Soundcore Q20i",
+    "q": "Anker Soundcore Q20i"
    },
    {
-    "name": "OneOdio Monitor80",
+    "name": "AKG K712 PRO",
+    "src": "楽天"
+   },
+   {
+    "name": "オーディオテクニカ ATH-R30x",
     "src": "楽天"
    }
   ],
@@ -185,11 +193,11 @@
     "name": "Anker SoundCore 2"
    },
    {
-    "name": "JBL GO4",
-    "q": "JBL GO4 Bluetoothスピーカー"
+    "name": "Anker Soundcore 3"
    },
    {
-    "name": "JBL FLIP 7"
+    "name": "JBL GO4",
+    "q": "JBL GO4 Bluetoothスピーカー"
    },
    {
     "name": "Anker Soundcore 3",
@@ -202,16 +210,14 @@
   ],
   "ボカロ 本": [
    {
-    "name": "東京大学「ボーカロイド音楽論」講義",
-    "q": "ボーカロイド音楽論 講義"
-   },
-   {
-    "name": "ボカロが世界に与えた衝撃（ele-king books）",
-    "q": "ボカロが世界に与えた衝撃"
-   },
-   {
     "name": "ボカロPで生きていく 40mPのボーカロイド活動日誌",
     "q": "ボカロPで生きていく 40mP"
+   },
+   {
+    "name": "作りながら覚える 3日で作曲入門"
+   },
+   {
+    "name": "作曲はじめます! マンガで身に付く曲づくりの基本"
    }
   ],
   "イヤープラグ ライブ": [
@@ -220,32 +226,30 @@
     "q": "Loop Experience 2 耳栓"
    },
    {
+    "name": "ALPINE MusicSafe Pro",
+    "q": "ALPINE MusicSafe Pro 耳栓"
+   },
+   {
     "name": "オーディオテクニカ AT-ERP5",
     "q": "オーディオテクニカ AT-ERP5 耳栓"
    },
    {
-    "name": "CRESCENDO Music 20",
-    "q": "CRESCENDO ライブ用耳栓 Music 20"
-   },
-   {
     "name": "Loop Experience 2",
-    "src": "楽天"
-   },
-   {
-    "name": "ラディウス EP-D20",
     "src": "楽天"
    }
   ],
   "レコードプレーヤー": [
    {
-    "name": "オーディオテクニカ AT-LP60XBT"
+    "name": "オーディオテクニカ AT-LP60X",
+    "q": "オーディオテクニカ AT-LP60X"
    },
    {
-    "name": "オーディオテクニカ AT-LP70XBT"
+    "name": "オーディオテクニカ AT-LP60XBT",
+    "q": "オーディオテクニカ AT-LP60XBT"
    },
    {
-    "name": "デノン DP-29F",
-    "q": "Denon DP-29F"
+    "name": "ION Audio レコードプレーヤー スピーカー内蔵",
+    "q": "ION Audio レコードプレーヤー"
    }
   ]
  },
