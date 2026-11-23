@@ -265,5 +265,245 @@
   "入門": "ボカロP出身のアーティストや、2020年代にブレイクしたシンガーをまとめて知れる入門記事です。",
   "ボカロP": "DECO*27が好きな人に向けて、いま聴きたいボカロPを紹介しています。"
  },
- "category_js": "<script>(function(C){var pg=document.querySelector(\".cx-page\");if(!pg)return;\nvar box=pg.querySelector(\".cards\"),cards=[].slice.call(box.querySelectorAll(\".card\"));\nfunction num(){[].forEach.call(box.querySelectorAll(\".card\"),function(a,i){a.setAttribute(\"data-no\",(C.pre||\"\")+(\"0\"+(i+1)).slice(-2))})}\n/* 読んだ記事に印 */\nvar RL=[];try{RL=JSON.parse(localStorage.getItem(\"ax-read\")||\"[]\")}catch(e){}\nvar m=0;cards.forEach(function(a,i){a.style.setProperty(\"--i\",i);if(RL.indexOf(new URL(a.href,location.href).pathname)>=0){a.classList.add(\"cx-read\");m++;var b=document.createElement(\"span\");b.className=\"cx-badge\";b.textContent=C.read;a.appendChild(b)}});\nnum();\nvar mt=pg.querySelector(\".cx-meter\");if(mt){mt.querySelector(\"b\").textContent=m;var i=mt.querySelector(\"i\");if(i)setTimeout(function(){i.style.setProperty(\"--w\",(cards.length?m/cards.length*100:0)+\"%\")},200)}\n/* 新しい順・古い順 */\nvar s=pg.querySelector(\".cx-sort\");if(s)s.addEventListener(\"click\",function(e){var b=e.target.closest(\"button\");if(!b||b.classList.contains(\"on\"))return;\n [].forEach.call(s.querySelectorAll(\"button\"),function(x){x.classList.toggle(\"on\",x==b)});var arr=cards.slice();if(b.getAttribute(\"data-o\")==\"old\")arr.reverse();arr.forEach(function(a){box.appendChild(a)});num()});\n/* ほかのカテゴリは一覧のあとへ */\nvar o=pg.querySelector(\".cx-others\");if(o){if(!o.querySelector(\"a\"))o.remove();else box.after(o)}\n/* 文字の大きさ（記事ページと同じ設定を使う） */\nif(C.size){var k=\"ax-size\",cur=\"\";try{cur=localStorage.getItem(k)||\"\"}catch(e){}\n var w=document.createElement(\"div\");w.className=\"ax-size\";w.innerHTML='<span>文字の大きさ</span><button data-s=\"\">ふつう</button><button data-s=\"l\">大</button><button data-s=\"xl\">特大</button>';\n function set(v){document.documentElement.setAttribute(\"data-size\",v);[].forEach.call(w.querySelectorAll(\"button\"),function(b){b.classList.toggle(\"on\",b.getAttribute(\"data-s\")==v)});try{localStorage.setItem(k,v)}catch(e){}}\n w.addEventListener(\"click\",function(e){var b=e.target.closest(\"button\");if(b)set(b.getAttribute(\"data-s\"))});var h=pg.querySelector(\".cx-head\");h&&h.appendChild(w);set(cur)}\n})({\"read\": \"読んだ♪\", \"pre\": \"TRACK \"});</script>"
+ "category_js": "<script>(function(C){var pg=document.querySelector(\".cx-page\");if(!pg)return;\nvar box=pg.querySelector(\".cards\"),cards=[].slice.call(box.querySelectorAll(\".card\"));\nfunction num(){[].forEach.call(box.querySelectorAll(\".card\"),function(a,i){a.setAttribute(\"data-no\",(C.pre||\"\")+(\"0\"+(i+1)).slice(-2))})}\n/* 読んだ記事に印 */\nvar RL=[];try{RL=JSON.parse(localStorage.getItem(\"ax-read\")||\"[]\")}catch(e){}\nvar m=0;cards.forEach(function(a,i){a.style.setProperty(\"--i\",i);if(RL.indexOf(new URL(a.href,location.href).pathname)>=0){a.classList.add(\"cx-read\");m++;var b=document.createElement(\"span\");b.className=\"cx-badge\";b.textContent=C.read;a.appendChild(b)}});\nnum();\nvar mt=pg.querySelector(\".cx-meter\");if(mt){mt.querySelector(\"b\").textContent=m;var i=mt.querySelector(\"i\");if(i)setTimeout(function(){i.style.setProperty(\"--w\",(cards.length?m/cards.length*100:0)+\"%\")},200)}\n/* 新しい順・古い順 */\nvar s=pg.querySelector(\".cx-sort\");if(s)s.addEventListener(\"click\",function(e){var b=e.target.closest(\"button\");if(!b||b.classList.contains(\"on\"))return;\n [].forEach.call(s.querySelectorAll(\"button\"),function(x){x.classList.toggle(\"on\",x==b)});var arr=cards.slice();if(b.getAttribute(\"data-o\")==\"old\")arr.reverse();arr.forEach(function(a){box.appendChild(a)});num()});\n/* ほかのカテゴリは一覧のあとへ */\nvar o=pg.querySelector(\".cx-others\");if(o){if(!o.querySelector(\"a\"))o.remove();else box.after(o)}\n/* 文字の大きさ（記事ページと同じ設定を使う） */\nif(C.size){var k=\"ax-size\",cur=\"\";try{cur=localStorage.getItem(k)||\"\"}catch(e){}\n var w=document.createElement(\"div\");w.className=\"ax-size\";w.innerHTML='<span>文字の大きさ</span><button data-s=\"\">ふつう</button><button data-s=\"l\">大</button><button data-s=\"xl\">特大</button>';\n function set(v){document.documentElement.setAttribute(\"data-size\",v);[].forEach.call(w.querySelectorAll(\"button\"),function(b){b.classList.toggle(\"on\",b.getAttribute(\"data-s\")==v)});try{localStorage.setItem(k,v)}catch(e){}}\n w.addEventListener(\"click\",function(e){var b=e.target.closest(\"button\");if(b)set(b.getAttribute(\"data-s\"))});var h=pg.querySelector(\".cx-head\");h&&h.appendChild(w);set(cur)}\n})({\"read\": \"読んだ♪\", \"pre\": \"TRACK \"});</script>",
+ "article_picks": {
+  "if-you-like-yoasobi": [
+   [
+    "ワイヤレスイヤホン",
+    "ワイヤレスイヤホン",
+    "毎日の音楽に"
+   ],
+   [
+    "ヘッドホン 音楽鑑賞",
+    "音楽鑑賞向けヘッドホン",
+    "歌声に浸る"
+   ],
+   [
+    "Bluetooth スピーカー",
+    "Bluetoothスピーカー",
+    "部屋でも気軽に"
+   ]
+  ],
+  "if-you-like-vaundy": [
+   [
+    "ワイヤレスイヤホン",
+    "ワイヤレスイヤホン",
+    "毎日の音楽に"
+   ],
+   [
+    "ヘッドホン 音楽鑑賞",
+    "音楽鑑賞向けヘッドホン",
+    "歌声に浸る"
+   ],
+   [
+    "Bluetooth スピーカー",
+    "Bluetoothスピーカー",
+    "部屋でも気軽に"
+   ]
+  ],
+  "if-you-like-kenshi-yonezu": [
+   [
+    "ワイヤレスイヤホン",
+    "ワイヤレスイヤホン",
+    "毎日の音楽に"
+   ],
+   [
+    "ヘッドホン 音楽鑑賞",
+    "音楽鑑賞向けヘッドホン",
+    "歌声に浸る"
+   ],
+   [
+    "Bluetooth スピーカー",
+    "Bluetoothスピーカー",
+    "部屋でも気軽に"
+   ]
+  ],
+  "if-you-like-eve": [
+   [
+    "ワイヤレスイヤホン",
+    "ワイヤレスイヤホン",
+    "毎日の音楽に"
+   ],
+   [
+    "ヘッドホン 音楽鑑賞",
+    "音楽鑑賞向けヘッドホン",
+    "歌声に浸る"
+   ],
+   [
+    "Bluetooth スピーカー",
+    "Bluetoothスピーカー",
+    "部屋でも気軽に"
+   ]
+  ],
+  "if-you-like-zutomayo": [
+   [
+    "ワイヤレスイヤホン",
+    "ワイヤレスイヤホン",
+    "毎日の音楽に"
+   ],
+   [
+    "ヘッドホン 音楽鑑賞",
+    "音楽鑑賞向けヘッドホン",
+    "歌声に浸る"
+   ],
+   [
+    "Bluetooth スピーカー",
+    "Bluetoothスピーカー",
+    "部屋でも気軽に"
+   ]
+  ],
+  "if-you-like-creepy-nuts": [
+   [
+    "ワイヤレスイヤホン",
+    "ワイヤレスイヤホン",
+    "毎日の音楽に"
+   ],
+   [
+    "ヘッドホン 音楽鑑賞",
+    "音楽鑑賞向けヘッドホン",
+    "歌声に浸る"
+   ],
+   [
+    "Bluetooth スピーカー",
+    "Bluetoothスピーカー",
+    "部屋でも気軽に"
+   ]
+  ],
+  "if-you-like-milet": [
+   [
+    "ワイヤレスイヤホン",
+    "ワイヤレスイヤホン",
+    "毎日の音楽に"
+   ],
+   [
+    "ヘッドホン 音楽鑑賞",
+    "音楽鑑賞向けヘッドホン",
+    "歌声に浸る"
+   ],
+   [
+    "Bluetooth スピーカー",
+    "Bluetoothスピーカー",
+    "部屋でも気軽に"
+   ]
+  ],
+  "if-you-like-aimer": [
+   [
+    "ワイヤレスイヤホン",
+    "ワイヤレスイヤホン",
+    "毎日の音楽に"
+   ],
+   [
+    "ヘッドホン 音楽鑑賞",
+    "音楽鑑賞向けヘッドホン",
+    "歌声に浸る"
+   ],
+   [
+    "Bluetooth スピーカー",
+    "Bluetoothスピーカー",
+    "部屋でも気軽に"
+   ]
+  ],
+  "if-you-like-fujii-kaze": [
+   [
+    "ワイヤレスイヤホン",
+    "ワイヤレスイヤホン",
+    "毎日の音楽に"
+   ],
+   [
+    "ヘッドホン 音楽鑑賞",
+    "音楽鑑賞向けヘッドホン",
+    "歌声に浸る"
+   ],
+   [
+    "Bluetooth スピーカー",
+    "Bluetoothスピーカー",
+    "部屋でも気軽に"
+   ]
+  ],
+  "if-you-like-lisa": [
+   [
+    "ワイヤレスイヤホン",
+    "ワイヤレスイヤホン",
+    "毎日の音楽に"
+   ],
+   [
+    "ヘッドホン 音楽鑑賞",
+    "音楽鑑賞向けヘッドホン",
+    "歌声に浸る"
+   ],
+   [
+    "イヤープラグ ライブ",
+    "ライブ用イヤープラグ",
+    "ライブの大音量から耳を守る"
+   ]
+  ],
+  "if-you-like-yama": [
+   [
+    "ワイヤレスイヤホン",
+    "ワイヤレスイヤホン",
+    "毎日の音楽に"
+   ],
+   [
+    "ヘッドホン 音楽鑑賞",
+    "音楽鑑賞向けヘッドホン",
+    "歌声に浸る"
+   ],
+   [
+    "イヤープラグ ライブ",
+    "ライブ用イヤープラグ",
+    "ライブの大音量から耳を守る"
+   ]
+  ],
+  "if-you-like-king-gnu": [
+   [
+    "Bluetooth スピーカー",
+    "Bluetoothスピーカー",
+    "バンドサウンドを部屋で"
+   ],
+   [
+    "ヘッドホン 音楽鑑賞",
+    "音楽鑑賞向けヘッドホン",
+    "楽器の重なりを聴き分ける"
+   ],
+   [
+    "ワイヤレスイヤホン",
+    "ワイヤレスイヤホン",
+    "通勤・通学のお供に"
+   ]
+  ],
+  "if-you-like-mrs-green-apple": [
+   [
+    "Bluetooth スピーカー",
+    "Bluetoothスピーカー",
+    "バンドサウンドを部屋で"
+   ],
+   [
+    "ヘッドホン 音楽鑑賞",
+    "音楽鑑賞向けヘッドホン",
+    "楽器の重なりを聴き分ける"
+   ],
+   [
+    "ワイヤレスイヤホン",
+    "ワイヤレスイヤホン",
+    "通勤・通学のお供に"
+   ]
+  ],
+  "if-you-like-official-hige-dandism": [
+   [
+    "Bluetooth スピーカー",
+    "Bluetoothスピーカー",
+    "バンドサウンドを部屋で"
+   ],
+   [
+    "ヘッドホン 音楽鑑賞",
+    "音楽鑑賞向けヘッドホン",
+    "楽器の重なりを聴き分ける"
+   ],
+   [
+    "ワイヤレスイヤホン",
+    "ワイヤレスイヤホン",
+    "通勤・通学のお供に"
+   ]
+  ]
+ }
 }
