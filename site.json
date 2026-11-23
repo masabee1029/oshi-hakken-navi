@@ -144,70 +144,6 @@
  "next_step_html": "<p>最後まで読んでくださり、ありがとうございました。</p><p>気になった1曲を、今日1回だけ聴いてみませんか。各アーティストの公式チャンネルや配信サービスで聴けます。</p><p>あなたの好きなアーティストは誰ですか？</p>",
  "refs": {
   "_label": "2026年11月の人気",
-  "ワイヤレスイヤホン": [
-   {
-    "name": "Xiaomi Redmi Buds 6 Play",
-    "q": "Xiaomi Redmi Buds 6 Play"
-   },
-   {
-    "name": "Xiaomi REDMI Buds 8 Lite",
-    "q": "Xiaomi REDMI Buds 8 Lite"
-   },
-   {
-    "name": "Anker Soundcore P31i",
-    "q": "Anker Soundcore P31i"
-   },
-   {
-    "name": "Anker Soundcore P40i",
-    "src": "楽天"
-   },
-   {
-    "name": "Anker Soundcore Liberty 5",
-    "src": "楽天"
-   }
-  ],
-  "ヘッドホン 音楽鑑賞": [
-   {
-    "name": "オーディオテクニカ ATH-M50x",
-    "q": "オーディオテクニカ ATH-M50x"
-   },
-   {
-    "name": "ソニー MDR-7506",
-    "q": "SONY MDR-7506"
-   },
-   {
-    "name": "Anker Soundcore Q20i",
-    "q": "Anker Soundcore Q20i"
-   },
-   {
-    "name": "AKG K712 PRO",
-    "src": "楽天"
-   },
-   {
-    "name": "オーディオテクニカ ATH-R30x",
-    "src": "楽天"
-   }
-  ],
-  "Bluetooth スピーカー": [
-   {
-    "name": "Anker SoundCore 2"
-   },
-   {
-    "name": "Anker Soundcore 3"
-   },
-   {
-    "name": "JBL GO4",
-    "q": "JBL GO4 Bluetoothスピーカー"
-   },
-   {
-    "name": "Anker Soundcore 3",
-    "src": "楽天"
-   },
-   {
-    "name": "Marshall EMBERTON III",
-    "src": "楽天"
-   }
-  ],
   "ボカロ 本": [
    {
     "name": "ボカロPで生きていく 40mPのボーカロイド活動日誌",
@@ -218,38 +154,6 @@
    },
    {
     "name": "作曲はじめます! マンガで身に付く曲づくりの基本"
-   }
-  ],
-  "イヤープラグ ライブ": [
-   {
-    "name": "Loop Experience 2",
-    "q": "Loop Experience 2 耳栓"
-   },
-   {
-    "name": "ALPINE MusicSafe Pro",
-    "q": "ALPINE MusicSafe Pro 耳栓"
-   },
-   {
-    "name": "オーディオテクニカ AT-ERP5",
-    "q": "オーディオテクニカ AT-ERP5 耳栓"
-   },
-   {
-    "name": "Loop Experience 2",
-    "src": "楽天"
-   }
-  ],
-  "レコードプレーヤー": [
-   {
-    "name": "オーディオテクニカ AT-LP60X",
-    "q": "オーディオテクニカ AT-LP60X"
-   },
-   {
-    "name": "オーディオテクニカ AT-LP60XBT",
-    "q": "オーディオテクニカ AT-LP60XBT"
-   },
-   {
-    "name": "ION Audio レコードプレーヤー スピーカー内蔵",
-    "q": "ION Audio レコードプレーヤー"
    }
   ]
  },
