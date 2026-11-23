@@ -3,6 +3,7 @@
 
 決まり: 1 組のアーティストは、サイト全体で 1 つの記事でしかおすすめしない（[[shop:<名前> CD|…]] で数える）。
 その記事の主役（「〇〇が好きな人に」の〇〇）は数えない。
+入門記事（GUIDES。題名にその人たちを並べて紹介する記事）は数えない（2026-11-23）。
 
 使い方:
   python3 used_artists.py            … おすすめ済みの一覧と、2 回以上の被り
@@ -13,9 +14,12 @@ import re, sys, glob, os
 from collections import defaultdict
 HERE = os.path.dirname(os.path.abspath(__file__))
 WIKI = os.path.expanduser("~/knowledge-os/wiki")
+GUIDES = {"2020s-breakout-singers", "utaite-culture-guide", "vocaloid-producer-origin-guide", "anime-theme-j-rock-intro"}
 used = defaultdict(list)
 for f in sorted(glob.glob(os.path.join(HERE, "content", "*.md"))):
     slug = os.path.basename(f)[11:-3]
+    if slug in GUIDES or "guide" in slug or "intro" in slug:
+        continue
     for a in dict.fromkeys(re.findall(r"\[\[shop:(.+?) CD\|", open(f, encoding="utf-8").read())):
         used[a].append(slug)
 dups = {a: s for a, s in used.items() if len(s) > 1}
